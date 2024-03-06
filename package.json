@@ -1,0 +1,29 @@
+{
+  "name": "@uniswaphooks/v4-core-unofficial",
+  "version": "1.0.0",
+  "description": "This repository contains the core smart contracts for the Uniswap V4 Protocol. For higher level contracts, see the uniswap-v4-periphery-unofficial repository.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/0xaaiden/v4-core-unofficial"
+  },
+  "author": "Aiden <aiden@fn03.xyz>",
+  "keywords": ["uniswap", "ethereum", "blockchain", "smart contracts", "defi"],
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  
+  "directories": {
+    "doc": "docs",
+    "lib": "lib",
+    "test": "test"
+  },
+  "files": [
+    "src/**/*",
+    "test/**/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC"
+}
